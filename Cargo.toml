@@ -35,23 +35,23 @@ webgl = ["wgpu/webgl"]
 
 [dependencies]
 # bevy
-bevy_app = { path = "../bevy_app", version = "0.12.1" }
-bevy_asset = { path = "../bevy_asset", version = "0.12.1" }
-bevy_core = { path = "../bevy_core", version = "0.12.1" }
-bevy_derive = { path = "../bevy_derive", version = "0.12.1" }
-bevy_ecs = { path = "../bevy_ecs", version = "0.12.1" }
-bevy_encase_derive = { path = "../bevy_encase_derive", version = "0.12.1" }
-bevy_hierarchy = { path = "../bevy_hierarchy", version = "0.12.1" }
-bevy_log = { path = "../bevy_log", version = "0.12.1" }
-bevy_math = { path = "../bevy_math", version = "0.12.1" }
-bevy_mikktspace = { path = "../bevy_mikktspace", version = "0.12.1" }
-bevy_reflect = { path = "../bevy_reflect", version = "0.12.1", features = ["bevy"] }
-bevy_render_macros = { path = "macros", version = "0.12.1" }
-bevy_time = { path = "../bevy_time", version = "0.12.1" }
-bevy_transform = { path = "../bevy_transform", version = "0.12.1" }
-bevy_window = { path = "../bevy_window", version = "0.12.1" }
-bevy_utils = { path = "../bevy_utils", version = "0.12.1" }
-bevy_tasks = { path = "../bevy_tasks", version = "0.12.1" }
+bevy_app = "0.12.1"
+bevy_asset = "0.12.1" 
+bevy_core = "0.12.1" 
+bevy_derive = "0.12.1" 
+bevy_ecs = "0.12.1" 
+bevy_encase_derive = "0.12.1" 
+bevy_hierarchy = "0.12.1" 
+bevy_log = "0.12.1" 
+bevy_math = "0.12.1" 
+bevy_mikktspace = "0.12.1" 
+bevy_reflect = "0.12.1", features = ["bevy"] 
+bevy_render_macros = "0.12.1" 
+bevy_time = "0.12.1" 
+bevy_transform = "0.12.1" 
+bevy_window = "0.12.1" 
+bevy_utils = "0.12.1" 
+bevy_tasks = "0.12.1" 
 
 # rendering
 image = { version = "0.24", default-features = false }
