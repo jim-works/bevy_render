@@ -45,7 +45,7 @@ bevy_hierarchy = "0.12.1"
 bevy_log = "0.12.1" 
 bevy_math = "0.12.1" 
 bevy_mikktspace = "0.12.1" 
-bevy_reflect = "0.12.1", features = ["bevy"] 
+bevy_reflect = { version="0.12.1", features = ["bevy"] } 
 bevy_render_macros = "0.12.1" 
 bevy_time = "0.12.1" 
 bevy_transform = "0.12.1" 
