@@ -357,7 +357,7 @@ pub fn prepare_windows(
         let surface = &surface_data.surface;
         if not_already_configured || window.size_changed || window.present_mode_changed {
             render_device.configure_surface(surface, &surface_configuration);
-            if let Ok(frame) =  = surface.get_current_texture(){ 
+            if let Ok(frame) = surface.get_current_texture(){ 
                 window.set_swapchain_texture(frame);
             }
         } else {
@@ -367,7 +367,7 @@ pub fn prepare_windows(
                 }
                 Err(wgpu::SurfaceError::Outdated) => {
                     render_device.configure_surface(surface, &surface_configuration);
-                    if let Ok(frame) =  = surface.get_current_texture(){ 
+                    if let Ok(frame) = surface.get_current_texture(){ 
                         window.set_swapchain_texture(frame);
                     }
                 }
